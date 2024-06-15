@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f5; /* Tons de vermelho claro */
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background-color: #330000; /* Tons de vermelho escuro */
+    color: #f4f4f4;
+}
+header {
+    background-color: #b71c1c; /* Vermelho */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+}
+header.dark-mode {
+    background-color: #7f0000; /* Vermelho escuro */
+}
+nav {
+    background-color: #c62828; /* Vermelho */
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: #8e0000; /* Vermelho escuro */
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffe5e5; /* Vermelho claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+main.dark-mode {
+    background-color: #660000; /* Vermelho escuro */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+h2 {
+    color: #d32f2f; /* Vermelho */
+}
+h2.dark-mode {
+    color: #ffcccc; /* Vermelho claro */
+}
+footer {
+    background-color: #b71c1c; /* Vermelho */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 2px -2px gray;
+    transition: background-color 0.3s;
+}
+footer.dark-mode {
+    background-color: #7f0000; /* Vermelho escuro */
+}
+.toggle-button {
+    background-color: #b71c1c; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.toggle-button:hover {
+    background-color: #8e0000; /* Vermelho escuro */
+}
+
